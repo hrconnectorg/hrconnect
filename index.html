@@ -68,10 +68,13 @@
                 <p>We are Process 1000 more organizations</p>
                 </h1>
                 <div id="textbox1"> 
-                    <input class="textbox" type="text" placeholder="Name">
-                    <input class="textbox" type="text" placeholder="Phone">
-                    <input class="textbox" type="text" placeholder="Email ID">
-                    <button class="button button1 textbox">Submit</button>
+                    <form action="https://formspree.io/hr@hrconnectorg.in" method="POST">
+                    <input class="textbox" type="text" placeholder="Name" name="name">
+                    <input class="textbox" type="text" placeholder="Phone"name="Phone">
+                    <input class="textbox" type="text" placeholder="Email ID" name="_replyto">
+                    <input class="button button1 textbox" type="submit" value="Send">
+                    <input type="hidden" name="_next" value="https://hrconnectorg.github.io/hrconnect/" />
+                    </form>
                 </div>
             </article>
             <div id="phoneNum">
